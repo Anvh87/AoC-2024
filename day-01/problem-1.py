@@ -1,4 +1,3 @@
-# The file is in the same folder as the script, so we just use its name.
 filename = "input.text"
 
 data = []
@@ -10,7 +9,6 @@ try:
             parts = line.strip().split()
             if len(parts) != 2: continue
             try:
-                # Using int() as you specified
                 data.append([int(parts[0]), int(parts[1])])
             except ValueError:
                 print(f"Warning: Skipping non-integer line: {line.strip()}")
