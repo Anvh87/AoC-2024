@@ -28,6 +28,6 @@ try:
     print(f"✅ Final Total Sum: {total_sum}")
 
 except FileNotFoundError:
-    print(f"Error: The file '{file_name}' was not found.")
+    print(f"Error: The file was not found.")
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
