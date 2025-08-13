@@ -41,18 +41,12 @@ def find_safe_sequence(arr):
     # 3. If no single removal creates a valid sequence, it's unsafe.
     return 'Unsafe', 'no single removal works'
 
-
-# --- Main script execution ---
-
 # Initialize counters
 safe_count = 0
 unsafe_count = 0
-file_path = 'input.txt'
-
-print(f"--- Analyzing data from '{file_path}' with new rules ---")
 
 try:
-    with open(file_path, 'r') as f:
+    with open('input.txt', 'r') as f:
         for line_num, line in enumerate(f, 1):
             line = line.strip()
             if not line:
