@@ -12,10 +12,6 @@ try:
     # Find all occurrences that match the pattern
     matches = re.findall(regex_pattern, content)
 
-    print("--- Found and Calculated (Strict Mode) ---")
-    if not matches:
-        print("No valid 'mul(X,Y)' patterns without spaces were found.")
-
     for match in matches:
         num1 = int(match[0])
         num2 = int(match[1])
