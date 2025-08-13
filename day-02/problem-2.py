@@ -73,7 +73,7 @@ try:
                 print(f"Line {line_num}: Skipped due to invalid non-numeric data ('{line}')")
 
 except FileNotFoundError:
-    print(f"Error: The file '{file_path}' was not found.")
+    print(f"Error: The file was not found.")
 
 # Print the final summary
 print("\n--- Challenge Analysis Complete ---")
