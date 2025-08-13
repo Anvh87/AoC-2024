@@ -1,4 +1,4 @@
-filename = "input.text"
+filename = "input.txt"
 
 data = []
 

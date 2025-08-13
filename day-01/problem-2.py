@@ -1,6 +1,6 @@
 import collections
 
-filename = "input.text"
+filename = "input.txt"
 
 left_column = []
 right_column = []
